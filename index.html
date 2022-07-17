@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kidda | Portfolio</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="h-screen bg-body text-text-color">
+    <header class="py-4 md:py-6 bg-body relative">
+      <div
+        class="container mx-auto flex items-center justify-between px-6 md:px-10 lg:px-16"
+      >
+        <h1 class="text-2xl font-bold">kidda</h1>
+        <div class="md:hidden">
+          <a id="nav-button">
+            <svg
+              class="w-4 h-4"
+              viewBox="0 0 28 28"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Menu" transform="translate(2 2)">
+                <path
+                  d="M0 1L11.9717 1"
+                  id="Line"
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke="#E3E3FE"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M0 12L24 12"
+                  id="Line-Copy"
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke="#E3E3FE"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M11.9717 23L23.9999 23"
+                  id="Line-Copy-2"
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke="#E3E3FE"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g></svg
+          ></a>
+        </div>
+
+        <nav class="hidden md:flex justify-between items-center space-x-10">
+          <a class="text-selected-text" href="#">Home</a>
+          <a class="hover:text-selected-text" href="#work">My Work</a>
+          <a class="hover:text-selected-text" href="#clients">Clients</a>
+          <a class="hover:text-selected-text" href="#hire-me">Hire Me</a>
+          <button
+            class="hidden md:flex items-center justify-center bg-button px-6 py-2 rounded-md hover:bg-selected-text"
+          >
+            Download CV
+          </button>
+        </nav>
+      </div>
+      <div id="mobile-nav" class="hidden px-4">
+        <nav class="flex flex-col justify-between items-center space-y-5">
+          <a class="text-selected-text" href="#">Home</a>
+          <a class="hover:text-selected-text" href="#work">My Work</a>
+          <a class="hover:text-selected-text" href="#clients">Clients</a>
+          <a class="hover:text-selected-text" href="#hire-me">Hire Me</a>
+          <button
+            class="w-full flex items-center justify-center bg-button px-6 py-2 rounded-md hover:bg-selected-text"
+          >
+            Download CV
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container mt-16 px-6 md:px-10 lg:px-16 mx-auto">
+      <div class="flex flex-wrap md:flex-nowrap items-center">
+        <div
+          class="max-w-xl flex flex-col items-center md:items-start justify-between space-y-6"
+        >
+          <h1
+            class="text-4xl md:text-6xl lg:text-7xl text-center md:text-left font-bold"
+          >
+            Building<br />
+            a great web and mobile experiences.
+          </h1>
+          <button class="button">Hire Me</button>
+        </div>
+        <img
+          src="images/man_with_background.jpg"
+          alt="Man"
+          class="w-3/4 mx-auto mt-12 md:mt-0 md:absolute right-0 -z-1"
+        />
+      </div>
+    </div>
+    <!-- my work -->
+    <div
+      id="work"
+      class="container mt-32 md:mt-64 mx-auto px-6 md:px-10 lg:px-16"
+    >
+      <section class="w-full">
+        <div class="flex flex-col items-start md:items-center mb-4">
+          <h2 class="secondary-title">My Work</h2>
+          <p class="text-left md:text-center text-lg max-w-3xl">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
+            unde deleniti recusandae enim quos ducimus.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 md:gap-5"
+        >
+          <div class="bg-[#29293A] w-full h-72"></div>
+          <div class="bg-[#29293A] w-full h-72"></div>
+          <div class="bg-[#29293A] w-full h-72"></div>
+          <div class="bg-[#29293A] w-full h-72"></div>
+          <div class="bg-[#29293A] w-full h-72"></div>
+          <div class="bg-[#29293A] w-full h-72"></div>
+        </div>
+      </section>
+    </div>
+    <!-- clients -->
+    <div
+      id="clients"
+      class="container mt-24 md:mt-32 mx-auto px-6 md:px-10 lg:px-16"
+    >
+      <section class="w-full">
+        <div class="flex flex-col items-start md:items-center mb-4">
+          <h2 class="secondary-title">Clients</h2>
+          <p class="text-left md:text-center text-lg max-w-3xl">
+            What our clients are saying about us
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 md:gap-5"
+        >
+          <div class="bg-[#29293A] w-full h-40"></div>
+          <div class="bg-[#29293A] w-full h-40"></div>
+          <div class="bg-[#29293A] w-full h-40"></div>
+          <div class="bg-[#29293A] w-full h-40"></div>
+          <div class="bg-[#29293A] w-full h-40"></div>
+          <div class="bg-[#29293A] w-full h-40"></div>
+        </div>
+      </section>
+    </div>
+    <!-- contact -->
+    <div
+      id="hire-me"
+      class="container mt-24 md:mt-32 mx-auto px-6 md:px-10 lg:px-16 mb-20"
+    >
+      <section class="w-full">
+        <div class="flex flex-col items-start md:items-center mb-4">
+          <h2 class="secondary-title">Contact</h2>
+        </div>
+        <div class="flex flex-col md:flex-row items-center md:space-x-10">
+          <div class="space-y-14 w-full self-start mt-9">
+            <!-- address -->
+            <h4 class="text-left text-lg max-w-3xl">
+              44, Idarika Street, Iperu Remo. Ogun State, Nigeria.
+            </h4>
+            <!-- email and phone-number -->
+            <div class="space-y-2">
+              <div class="flex space-x-2">
+                <span class="w-6 h-6 bg-[#353546]"></span>
+                <a href="mailto:easykiddathawonderkind@gmail.com"
+                  >easykiddathawonderkind@gmail.com</a
+                >
+              </div>
+              <div class="flex space-x-2">
+                <span class="w-6 h-6 bg-[#353546]"></span>
+                <a href="tel:+2347025328880">+(234) 702 532 8880</a>
+              </div>
+            </div>
+            <!-- social media icon -->
+            <div class="flex space-x-4 items-center max-w-xl">
+              <span class="w-6 h-6 bg-[#353546]"></span>
+              <span class="w-6 h-6 bg-[#353546]"></span>
+              <span class="w-6 h-6 bg-[#353546]"></span>
+              <span class="w-6 h-6 bg-[#353546]"></span>
+            </div>
+          </div>
+          <!-- form -->
+          <div class="w-full mt-9">
+            <form action="" class="space-y-4">
+              <div>
+                <p>Name</p>
+                <input
+                  type="text"
+                  name="Name"
+                  id="name-input"
+                  placeholder="Adele Adkins"
+                  class="placeholder:text-placeholder-text placeholder:text-lg bg-input p-2 w-full border-none rounded-md"
+                />
+              </div>
+              <div>
+                <p>Email</p>
+                <input
+                  type="email"
+                  name="Name"
+                  id="name-input"
+                  placeholder="victoriachen5@nowhere.com"
+                  class="placeholder:text-placeholder-text placeholder:text-lg bg-input p-2 w-full border-none rounded-md"
+                />
+              </div>
+              <div>
+                <p>Message</p>
+                <textarea
+                  id="name-input"
+                  placeholder="Say something..."
+                  class="placeholder:text-placeholder-text placeholder:text-lg bg-input p-2 w-full h-60 outline-none resize-none border-none rounded-md"
+                ></textarea>
+              </div>
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="mt-5 bg-body">
+      <div
+        class="container mx-auto flex items-center justify-between px-6 py-5 md:px-10 lg:px-16"
+      >
+        <p>© copyright 2022.</p>
+        <p>Made with ❤ and ☕</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
